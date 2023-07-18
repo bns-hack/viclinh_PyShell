@@ -6,7 +6,7 @@ components:
         kind: Application
         name: backend
         gitRepo: 'https://github.com/bns-hack/viclinh_PyShell.git'
-        gitBranch: pygame-backend-app/v0.1.0
+        gitBranch: master
         gitApplicationPath: components/pygame-backend
         dockerCompose:
             build:
@@ -30,7 +30,7 @@ components:
         kind: Application
         name: frontend
         gitRepo: 'https://github.com/bns-hack/viclinh_PyShell.git'
-        gitBranch: pygame-frontend-app/v0.1.0
+        gitBranch: master
         gitApplicationPath: components/pygame-frontend
         dockerCompose:
             build:
